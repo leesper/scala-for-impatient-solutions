@@ -1,6 +1,11 @@
 object Chapter5Solutions {
 //  1. Improve the Counter class in Section 5.1, “Simple Classes and Parameterless
 //    Methods,” on page 55 so that it doesn’t turn negative at Int.MaxValue.
+  def exer1(): Unit = {
+    val counter = new Counter()
+    counter.increment()
+    println(counter.current)
+  }
 
 //  2. Write a class BankAccount with methods deposit and withdraw, and a read-only
 //  property balance.
@@ -36,6 +41,18 @@ object Chapter5Solutions {
 //  Rewrite it to use explicit fields and a default primary constructor. Which form
 //  do you prefer? Why?
   def main(args: Array[String]): Unit = {
-
+    exer1()
   }
+}
+
+class Counter {
+  private var value = 0
+
+
+  def increment(): Unit = {
+    if (value == Int.MaxValue) value = 0 else value += 1
+  }
+
+  def current = value
+
 }
