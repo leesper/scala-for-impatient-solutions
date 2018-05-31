@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca64ca56-aaed-4720-85d5-3f1dbea5aee2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/chapter8/solutions.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter8/solutions.scala" beforeDir="false" afterPath="$PROJECT_DIR$/chapter8/solutions.scala" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,8 +17,8 @@
       <file leaf-file-name="solutions.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chapter8/solutions.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="93" column="10" selection-start-line="93" selection-start-column="10" selection-end-line="93" selection-end-column="10" />
+            <state relative-caret-position="280">
+              <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
             </state>
           </provider>
         </entry>
@@ -180,16 +180,15 @@
       <workItem from="1527238556050" duration="1485000" />
       <workItem from="1527641747442" duration="11327000" />
       <workItem from="1527672516861" duration="1081000" />
-      <workItem from="1527729063235" duration="12984000" />
+      <workItem from="1527729063235" duration="14487000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34128000" />
+    <option name="totallyTimeSpent" value="35631000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -343,8 +342,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter8/solutions.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="93" column="10" selection-start-line="93" selection-start-column="10" selection-end-line="93" selection-end-column="10" />
+        <state relative-caret-position="280">
+          <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
         </state>
       </provider>
     </entry>

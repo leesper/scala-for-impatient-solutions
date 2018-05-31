@@ -2,9 +2,6 @@ import scala.collection.mutable.ArrayBuffer
 
 
 
-//9. In the Creature class of Section 8.10, “Construction Order and Early Definitions,”
-//on page 98, replace val range with a def. What happens when you also use a def
-//in the Ant subclass? What happens when you use a val in the subclass? Why?
 
 //10. The file scala/collection/immutable/Stack.scala contains the definition
 //class Stack[A] protected (protected val elems: List[A])
@@ -88,9 +85,30 @@ object Chapter8Solutions {
     println(point.x, point.y, point.label)
   }
 
+  //9. In the Creature class of Section 8.10, “Construction Order and Early Definitions,”
+  //on page 98, replace val range with a def. What happens when you also use a def
+  //in the Ant subclass? What happens when you use a val in the subclass? Why?
+  // answer: use def in subclass, env initialized with range == 2, this is a function;
+
+  class Creature {
+    def range: Int = 10
+    val env: Array[Int] = new Array[Int](range)
+  }
+
+  class Ant extends Creature {
+    override def range: Int = 2
+  }
+
+  def exer9(): Unit = {
+    val ant = new Ant
+    println(ant.range)
+    println(ant.env.size)
+  }
+
   def main(args: Array[String]): Unit = {
     exer1()
     exer4()
     exer5()
+    exer9()
   }
 }
