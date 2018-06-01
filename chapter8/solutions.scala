@@ -1,15 +1,5 @@
 import scala.collection.mutable.ArrayBuffer
 
-
-
-
-//10. The file scala/collection/immutable/Stack.scala contains the definition
-//class Stack[A] protected (protected val elems: List[A])
-//Explain the meanings of the protected keywords. (Hint: Review the discussion
-//  of private constructors in Chapter 5.)
-
-//11. Define a value class Point that packs integer x and y coordinates into a Long
-//  (which you should make private).
 object Chapter8Solutions {
   //1. Extend the following BankAccount class to a CheckingAccount class that charges $1
   //for every deposit and withdrawal.
@@ -88,7 +78,8 @@ object Chapter8Solutions {
   //9. In the Creature class of Section 8.10, “Construction Order and Early Definitions,”
   //on page 98, replace val range with a def. What happens when you also use a def
   //in the Ant subclass? What happens when you use a val in the subclass? Why?
-  // answer: use def in subclass, env initialized with range == 2, this is a function;
+  // answer: use def in subclass, env initialized with range == 2, this is a function defined;
+  // answer: use val in subclass, env initialized with range == 0, because this is the getter method not initialized yet
 
   class Creature {
     def range: Int = 10
@@ -96,7 +87,8 @@ object Chapter8Solutions {
   }
 
   class Ant extends Creature {
-    override def range: Int = 2
+//    override def range: Int = 2
+    override val range: Int = 2
   }
 
   def exer9(): Unit = {
