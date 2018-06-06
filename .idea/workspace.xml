@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca64ca56-aaed-4720-85d5-3f1dbea5aee2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter10/solutions.scala" beforeDir="false" afterPath="$PROJECT_DIR$/chapter10/solutions.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter11/solutions.scala" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,23 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="solutions.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter8/solutions.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="92" selection-start-line="92" selection-end-line="92" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="solutions.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/chapter10/solutions.scala">
+        <entry file="file://$PROJECT_DIR$/chapter11/solutions.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="446">
+              <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
             </state>
           </provider>
         </entry>
@@ -52,6 +39,7 @@
         <option value="$PROJECT_DIR$/chapter7/solutions.scala" />
         <option value="$PROJECT_DIR$/chapter8/solutions.scala" />
         <option value="$PROJECT_DIR$/chapter10/solutions.scala" />
+        <option value="$PROJECT_DIR$/chapter11/solutions.scala" />
       </list>
     </option>
   </component>
@@ -95,12 +83,7 @@
             <path>
               <item name="scala-for-impatient-solutions" type="b2602c69:ProjectViewProjectNode" />
               <item name="scala-for-impatient-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter8" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scala-for-impatient-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scala-for-impatient-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter10" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter11" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -201,16 +184,15 @@
       <workItem from="1527729063235" duration="14487000" />
       <workItem from="1527818416258" duration="3057000" />
       <workItem from="1527831442376" duration="2933000" />
-      <workItem from="1528274968703" duration="6098000" />
+      <workItem from="1528274968703" duration="12600000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47719000" />
+    <option name="totallyTimeSpent" value="54221000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -404,6 +386,13 @@
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter11/solutions.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
         </state>
       </provider>
     </entry>
