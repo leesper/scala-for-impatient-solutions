@@ -1,35 +1,3 @@
-
-
-//5. Provide operators that construct an HTML table. For example,
-//Table() | "Java" | "Scala" || "Gosling" | "Odersky" || "JVM" | "JVM, .NET"
-//should produce "<table><tr><td>Java</td><td>Scala</td></tr><tr><td>Gosling..."
-
-//7. Implement a class BitSequence that stores a sequence of 64 bits packed in a Long
-//  value. Supply apply and update operators to get and set an individual bit.
-
-//9. Define an object PathComponents with an unapply operation class that extracts
-//the directory path and file name from an java.nio.file.Path . For example, the
-//file /home/cay/readme.txt has directory path /home/cay and file name readme.txt .
-
-//10. Modify the PathComponents object of the preceding exercise to instead define an
-//unapplySeq operation that extracts all path segments. For example, for the file
-//  /home/cay/readme.txt , you should produce a sequence of three segments: home ,
-//cay , and readme.txt .
-
-//11. Improve the dynamic property selector in Section 11.11, “Dynamic Invoca-
-//  tion,” on page 150 so that one doesn’t have to use underscores. For example,
-//sysProps.java.home should select the property with key "java.home" . Use a helper
-//class, also extending Dynamic , that contains partially completed paths.
-
-//12. Define a class XMLElement that models an XML element with a name, attributes,
-//and child elements. Using dynamic selection and method calls, make it pos-
-//  sible to select paths such as rootElement.html.body.ul(id="42").li , which should
-//return all li elements inside ul with id attribute 42 inside body inside html .
-
-//13. Provide an XMLBuilder class for dynamically building XML elements, as
-//builder.ul(id="42", style="list-style: lower-alpha;") , where the method name
-//  becomes the element name and the named arguments become the attributes.
-//  Come up with a convenient way of building nested elements.
 object Chapter11Solutions {
   // 1. According to the precedence rules, how are 3 + 4 -> 5 and 3 -> 4 + 5 evaluated?
   // answer: (3 + 4) -> 5 and (3 -> 4) + 5
